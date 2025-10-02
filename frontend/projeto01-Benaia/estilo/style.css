@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica;
+    background-color: #b9d9d9;/*cor de fundo*/
+    color: rgb(0, 0, 0); /*cor da fonte*/
+}
+
+header{
+    background-color: aliceblue;
+    padding: 20px; /*espaçamento interno do elemento*/
+    text-align: center;
+}
+
+main{
+max-width: 1200px;
+margin: 48px auto 28px;
+}
+
+#banner{
+   background-color: #ffffff;
+   margin: 10px;
+   padding: 20px; 
+   border-radius: 20px;
+}
+
+.img_banner{
+  width: 400px;
+  margin: auto;
+  display: block;
+}
+
+#servicos{
+   background-color: #ffffff;
+   margin: 10px;
+   padding: 20px; 
+   border-radius: 20px;
+}
+
+#servicos ul{
+   padding-left: 20px;
+}
+
+#servicos ul li{
+    padding-left: 5px;
+    line-height: 1.2;
+}
+
+#atendimentos{
+   background-color: #ffffff;
+   margin: 10px;
+   padding: 20px; 
+   border-radius: 20px;
+}
+
+footer{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px; 
+}
+/*estilo para menu*/
+nav{
+    background-color: #f3f4f6;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;/*apresenta itens na horizontal*/
+    padding: 20px;
+    margin-right: 10px;
+    background-color: dimgray;
+    border-radius: 20PX;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(58, 37, 10)
+}
+
+nav ul li a:hover{
+    color: lightskyblue;
+}
+
+#contato{
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+fieldset{
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+input{
+    margin: 10px 0px;
+}
+.text{
+    padding:10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox{
+    margin-right: 10px;
+}
+
+.button{
+    background-color: #3d3d3d;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover{
+    background-color: #66a6a6;
+}
